@@ -80,7 +80,7 @@ export class About extends Component {
                     plans in cases of emergency or schedule holidays and closings</strong>
                 </p>
                 <Row className="title">
-                    <h1 className="heading">Vaccination & Illness Policy</h1>
+                    <h1 className="heading">Vaccination & Illness Policies</h1>
                 </Row>
                 <p>
                     We are a Washington State licensed daycare and as such all children are  required to be
