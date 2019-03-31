@@ -1,12 +1,91 @@
-Body{
-  background-color: red;
-}
-.logo{
-  width: 20%;
-}
-
-.App{
-  margin: 1%;
+body{
+  background-image: url(/img/wall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 500px;
+  
+  /* background-color: grey; */
+  
   
 }
 
+
+.title, h1{
+  font-family: 'Henny Penny', sans-serif;
+  text-align: center;
+  color: purple;
+  font-size: 3rem;
+  width: 100%;
+  margin-top: 0.75rem;
+  
+}
+
+p{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.2rem;
+}
+
+.button{
+  font-size: 1.5rem;
+  
+}
+
+
+
+.App{
+  
+  background-color:  #E5E5E5;
+  
+}
+
+.nav{
+ background-image: url(/img/white-fabric.jpg);
+ background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.Col{
+  padding-left: 0px;
+  padding-top: 10%;
+}
+
+
+
+@media (max-width: 370px){
+  .logo{
+    display: none;
+  }
+  .Col{
+    padding-top: 0;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+  }
+  .title, h1{
+    font-size: 1.5rem;
+  }
+
+  .button{
+    font-size: 1rem;
+  }
+
+}
+
+@media (min-width: 371px ) and (max-width: 750px){
+  .logo{
+    display: none;
+  }
+  .Col{
+    padding-top: 0;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+  }
+  .button{
+    font-size: 1.5rem;
+  }
+  .title, h1{
+    font-size: 2rem;
+  }
+}

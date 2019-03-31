@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {HashRouter as Router, Route, Link} from "react-router-dom"
 import {Home} from './home';
 import {About} from './about';
 import {Gallery} from './gallery';
+import {Card, Container, Row, Col, Button} from "react-bootstrap";
 import './App.css';
 
 
@@ -12,19 +14,36 @@ class App extends Component {
     return (
       <>
       
-      <div className="App">
-      <img src='/img/daycare.png' alt="business logo" className="logo"/>
+      <Container className="App">
+       
        <Router>
-        <Link to ='/'><button>Home</button></Link>
-        <Link to='/about'><button>About</button></Link>
-        <Link to='/gallery'><button>Gallery</button></Link>
+         <Row className="nav">
+          <Col className="logo">
+            <Card >
+              <Card.Img src='/img/khd.png'alt="business logo" ></Card.Img>
+            </Card>
+          </Col>
+        <Col className="Col">
+          <Link to ='/'><Button variant="outline-info "  block className="button"><strong>Home</strong></Button></Link>
+        </Col>
+        <Col className="Col">
+          <Link to='/about'><Button variant="outline-info" block className="button"><strong>About</strong></Button></Link>
+        </Col>
+        <Col className="Col">
+          <Link to='/gallery'><Button variant="outline-info" block className="button"><strong>Gallery</strong></Button></Link>
+        </Col>
+        
+
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About}/>
         <Route path="/gallery" component={Gallery}/>
-        
+        </Row>
 
        </Router>
-      </div>
+
+      </Container>
+     
+      
       </>
     );
   }
