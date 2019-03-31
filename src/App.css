@@ -4,11 +4,7 @@ body{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 500px;
-  
-  /* background-color: grey; */
-  
-  
+  min-height: 500px;  
 }
 
 
@@ -18,8 +14,7 @@ body{
   color: purple;
   font-size: 3rem;
   width: 100%;
-  margin-top: 0.75rem;
-  
+  margin-top: 0.75rem; 
 }
 
 p{
@@ -28,23 +23,19 @@ p{
 }
 
 .button{
-  font-size: 1.5rem;
-  
+  font-size: 1.5rem; 
 }
 
 
 
 .App{
-  
   background-color:  #E5E5E5;
-  
 }
 
 .nav{
  background-image: url(/img/white-fabric.jpg);
  background-repeat: no-repeat;
-  background-size: 100%;
-  
+  background-size: 100%; 
 }
 
 .Col{
@@ -70,7 +61,6 @@ p{
   .button{
     font-size: 1rem;
   }
-
 }
 
 @media (min-width: 371px ) and (max-width: 750px){
