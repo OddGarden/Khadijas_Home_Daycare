@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Container, Row, Col, Carousel } from "react-bootstrap";
+import { Card, Container, Row, Col } from "react-bootstrap";
 
 export class Gallery extends Component {
     render() {
