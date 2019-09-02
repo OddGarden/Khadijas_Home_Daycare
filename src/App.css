@@ -91,6 +91,9 @@ ul{
   .button{
     font-size: 1rem;
   }
+  .contact{
+    font-size: 1.2em;
+  }
 }
 
 @media (min-width: 371px ) and (max-width: 750px){
@@ -111,4 +114,8 @@ ul{
   p{
     padding: 0;
   }
+  .contact{
+    font-size: 1.2em;
+  }
+ 
 }
