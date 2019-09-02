@@ -7,6 +7,40 @@ body{
   min-height: 500px;  
 }
 
+p{
+  text-align: left;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.5rem;
+}
+
+#footer{
+  text-align: center;
+  font-size: .95rem;
+}
+
+.contact{
+  text-align: center;
+}
+
+ul{
+  margin-left: 3.5rem;
+}
+
+.pics{
+  transform: rotate(0.25turn);
+  vertical-align: 0%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 33%;
+
+}
+
+#cert{
+  width: 75%;
+  margin-left: 10%;
+}
 
 .title, h1{
   font-family: 'Henny Penny', sans-serif;
@@ -17,10 +51,6 @@ body{
   margin-top: 0.75rem; 
 }
 
-p{
-  font-family: 'Philosopher', sans-serif;
-  font-size: 1.2rem;
-}
 
 .button{
   font-size: 1.5rem; 
@@ -77,5 +107,8 @@ p{
   }
   .title, h1{
     font-size: 2rem;
+  }
+  p{
+    padding: 0;
   }
 }

@@ -41,6 +41,14 @@ class App extends Component {
 
           </Router>
 
+          <footer>
+            <Card >
+              <Card.Footer >
+                <p id="footer">Copyright © 2019. Khadija Home Daycare. All Rights Reserved</p>
+              </Card.Footer>
+            </Card>
+          </footer>
+
         </Container>
 
 
