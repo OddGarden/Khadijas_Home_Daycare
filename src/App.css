@@ -87,6 +87,9 @@ ul{
   .title, h1{
     font-size: 1.5rem;
   }
+  p{
+    text-align: center;
+  }
 
   .button{
     font-size: 1rem;
@@ -94,12 +97,22 @@ ul{
   .contact{
     font-size: 1.2em;
   }
+  ul{
+    margin-left: 0;
+    text-align: left;
+  }
 }
 
 @media (min-width: 371px ) and (max-width: 750px){
   .logo{
     display: none;
   }
+
+  ul{
+    margin-left: 0;
+    text-align: left;
+  }
+
   .Col{
     padding-top: 0;
     padding-left: 0.5rem;
@@ -113,6 +126,7 @@ ul{
   }
   p{
     padding: 0;
+    text-align: center;
   }
   .contact{
     font-size: 1.2em;

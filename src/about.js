@@ -80,7 +80,7 @@ export class About extends Component {
                 <p>
                     We are a Washington State licensed daycare and as such all children are  required to be
                     vaciannated. <strong>No exceptions.</strong> You are required to your child(ren) immunization
-                    records at the time of enrollement. Please note we will not be able to start care for you loved
+                    records at the time of enrollement. Please note we will not be able to start care for your loved
                     one until we have received said records.
                 </p>
                 <p>
